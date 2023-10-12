@@ -11,7 +11,7 @@ export type State = {
 export const hooks: t.Hooks<'model', State> = {
 	makeState({ dir }) {},
 	async onAdd({ state }) {
-		await serverUtil.assertFileExists(state)
+		await serverUtil.assertFileExists(state.someFile)
 	},
 }
 
