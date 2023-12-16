@@ -1,4 +1,5 @@
 import { init as OverviewBasic } from '@quasipanacea/plugin-overview-basic/_server.ts'
+import { init as OverviewCanvas } from '@quasipanacea/plugin-overview-canvas/_server.ts'
 import { init as OverviewDebug } from '@quasipanacea/plugin-overview-debug/_server.ts'
 import { init as OverviewGraph } from '@quasipanacea/plugin-overview-graph/_server.ts'
 
@@ -40,6 +41,7 @@ export { metadata } from './_isomorphic.ts'
 export async function initAll() {
 	await Promise.all([
 		OverviewBasic(),
+		OverviewCanvas(),
 		OverviewDebug(),
 		OverviewGraph(),
 
