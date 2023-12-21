@@ -32,7 +32,7 @@ import { init as PodviewDebug } from '@quasipanacea/plugin.pod.debug.view/_serve
 import { init as PodviewExcalidraw } from '@quasipanacea/plugin.pod.excalidraw.view/_server.ts'
 import { init as PodviewFlashcard } from '@quasipanacea/plugin.pod.flashcard.view/_server.ts'
 import { init as PodviewLatex } from '@quasipanacea/plugin.pod.latex.view/_server.ts'
-import { init as PodviewMilkdown } from '@quasipanacea/plugin.pod.markdown.view.milkdown/_server.ts'
+// import { init as PodviewMilkdown } from '@quasipanacea/plugin.pod.markdown.view.milkdown/_server.ts'
 import { init as PodviewPlaintext } from '@quasipanacea/plugin.pod.plaintext.view/_server.ts'
 import { init as PodviewRemark } from '@quasipanacea/plugin.pod.markdown.view.remark/_server.ts'
 
@@ -74,7 +74,7 @@ export async function initAll() {
 		PodviewExcalidraw(),
 		PodviewFlashcard(),
 		PodviewLatex(),
-		PodviewMilkdown(),
+		// PodviewMilkdown(),
 		PodviewPlaintext(),
 		PodviewRemark(),
 	])

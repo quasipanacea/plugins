@@ -4,10 +4,12 @@
 		"@quasipanacea/common": "workspace:^",
 		"@quasipanacea/plugin-theme-default": "workspace:^",
 		"@quasipanacea/plugin-utility": "workspace:^",
+		"lodash": "^4.17.21",
 		"muuri": "^0.9.5"
 	},
 	"devDependencies": {
 		"@quasipanacea/types": "workspace:^",
+		"@types/lodash": "^4.14.202",
 		"vue": "^3.0.0",
 		"vue-router": "^4.0.0"
 	},

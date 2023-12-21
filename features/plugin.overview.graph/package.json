@@ -17,6 +17,7 @@
 		"cytoscape-fcose": "^2.2.0",
 		"cytoscape-lasso": "^1.1.4",
 		"cytoscape-undo-redo": "^1.3.3",
+		"lodash": "^4.17.21",
 		"vis-data": "^7.1.6",
 		"vis-network": "^9.1.6"
 	},
